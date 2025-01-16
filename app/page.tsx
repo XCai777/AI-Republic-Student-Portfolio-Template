@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { Terminal, ArrowRight, Mail, Github, Linkedin } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function Home() {
   return (
