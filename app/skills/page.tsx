@@ -118,7 +118,6 @@ export default function Skills() {
                     key={skillIndex}
                     className="py-2 sm:py-3 px-3 sm:px-4 bg-black/40 hover:bg-black/60 border border-purple-500/20 hover:border-purple-500/40 text-white transition-all duration-300 text-sm sm:text-base flex items-center justify-center"
                   >
-                    <span className="mr-2 text-base sm:text-lg">{skill.icon}</span>
                     {skill.name}
                   </Badge>
                 ))}
@@ -144,7 +143,6 @@ export default function Skills() {
                       key={index}
                       className="flex items-center justify-center p-3 sm:p-4 bg-black/40 border border-purple-500/20 hover:border-purple-500/40 rounded-lg transition-all duration-300 gap-2"
                     >
-                      <span className="text-xl sm:text-2xl">{tech.icon}</span>
                       <span className="text-white font-mono text-sm sm:text-base">{tech.name}</span>
                     </div>
                   ))}
