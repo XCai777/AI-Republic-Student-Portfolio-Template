@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { ArrowRight } from 'lucide-react';
+import { Terminal, ArrowRight, Mail, Github, Linkedin } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -33,7 +33,7 @@ export default function Home() {
           <div className="flex justify-center items-center">
             <div className="relative w-72 h-72 sm:w-96 sm:h-96">
               <Image
-                src="https://placehold.co/600x600/purple/white?text=Your+Profile+Photo"
+                src="https://raw.githubusercontent.com/XCai777/AI-Republic-Student-Portfolio-Template/refs/heads/main/app/images/xcai.jpg" // Change to your Photo Please
                 alt="Profile"
                 fill
                 className="rounded-3xl object-cover"
@@ -84,25 +84,25 @@ export default function Home() {
 
 const projects = [
   { 
-    title: "Project_1", 
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&fit=crop",
-    problem: "Inefficient stock management leading to lost sales, excess inventory, and stock issues: 41.5%",
-    solution: "Developed an inventory optimization tool using machine learning to forecast demand and optimize stock levels, resulting in a 35% reduction in stockouts and a 40% decrease in holding costs.",
-    link : "http://github.com"
+    title: "Vendomort", 
+    image: "https://raw.githubusercontent.com/XCai777/AI_Republic_Bootcamp/refs/heads/main/Projects/Vendor/images/Login.png",
+    problem: "Inefficient pricing strategy and income projection leading to noncompetitive pricing in the market",
+    solution: "Developed a pricing consultant AI tool with built in income projection based on the recommended pricing strategy and demand.",
+    link : "https://github.com/XCai777/AI_Republic_Bootcamp/tree/main/Projects/Vendor"
   },
   {
-    title: "Project_2",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&fit=crop",
-    problem: "Inefficient stock management leading to lost sales, excess inventory, and stock issues: 41.5%",
-    solution: "Developed an inventory optimization tool using machine learning to forecast demand and optimize stock levels, resulting in a 35% reduction in stockouts and a 40% decrease in holding costs.",
-    link : "http://github.com"
+    title: "PropGuard",
+    image: "https://raw.githubusercontent.com/XCai777/AI-Republic-Student-Portfolio-Template/refs/heads/main/app/images/PropGuard_Logo.png",
+    problem: "The Philippine real estate market faces significant challenges due to widespread fraud, lack of transparency, and unreliable property listings.",
+    solution: "PropGuard addresses this by offering a suite of AI-driven tools that validate property details, images, and user interactions in real time. The platform uses property details validation, image validation, cross-platform verification, sentiment analysis, and trust scoring to ensure that each property transaction is safe and reliable.",
+    link : "https://github.com/XCai777/HackatonAI"
   },
   {
-    title: "Project_3",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&fit=crop",
-    problem: "Inefficient stock management leading to lost sales, excess inventory, and stock issues: 41.5%",
-    solution: "Developed an inventory optimization tool using machine learning to forecast demand and optimize stock levels, resulting in a 35% reduction in stockouts and a 40% decrease in holding costs.",
-    link : "http://github.com"
+    title: "Marketing Analysis System",
+    image: "https://raw.githubusercontent.com/XCai777/AI-Republic-Student-Portfolio-Template/refs/heads/main/app/images/MarketingAnalysisSystem.jpg",
+    problem: "With over 70% of transactions driven by digital campaigns, inefficiencies such as underperforming ads, overspending on low-conversion traffic sources, and missed opportunities for scaling successful campaigns lead to an average ROI loss of 20-30%.",
+    solution: "By analyzing traffic sources and campaign data, the system quantifies cost-effectiveness, identifies wastage in high-spending but low-performing campaigns, and recommends scaling strategies for high-ROI efforts. With actionable insights, businesses can reduce marketing inefficiencies by up to 25% and optimize ad spend to maximize profitability in the dynamic Philippine e-commerce ecosystem.",
+    link : "https://github.com/XCai777/AI_Republic_Bootcamp/tree/main/Projects/AI_First_Day_6"
   },
   
 ];
