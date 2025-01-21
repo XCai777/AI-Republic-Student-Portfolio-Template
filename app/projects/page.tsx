@@ -126,7 +126,7 @@ export default function Projects() {
                 
                 <div className="pt-4 space-y-4">
                   <div className="flex flex-wrap gap-2">
-                    {project.tools.map((tool, toolIndex) => (
+                    {project.tools?.map((tool, toolIndex) => (
                       <span
                         key={toolIndex}
                         className="text-xs px-3 py-1 rounded-full bg-purple-500/10 text-purple-300 border border-purple-500/20"
