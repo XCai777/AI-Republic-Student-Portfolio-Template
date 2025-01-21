@@ -21,7 +21,16 @@ export default function Home() {
               AN AI ENGINEER
             </h1>
             <p className="text-gray-400 max-w-xl mx-auto lg:mx-0"> 
-              Write About yourself as a professional!
+              AI Engineering Skills
+                -Proficient in Large Language Models (LLMs) and Natural Language Processing (NLP).
+                -Experienced with Retrieval-Augmented Generation (RAG) techniques.
+                -Extensive knowledge of OpenAI technologies and implementation.
+              Systems Engineering Skills
+                -Expertise in containerization and orchestration: Kubernetes, Docker.
+                -CI/CD pipeline management using Jenkins.
+                -Version control and collaboration with Git.
+                -Database management: MSSQL, MongoDB.
+                -Proficient with web server technologies: NGINX.
             </p> 
             <Link href="/projects">
               <Button className="bg-purple-600 hover:bg-purple-700">
