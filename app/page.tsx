@@ -21,16 +21,16 @@ export default function Home() {
               AN AI ENGINEER
             </h1>
             <p className="text-gray-400 max-w-xl mx-auto lg:mx-0"> 
-              AI Engineering Skills
-                -Proficient in Large Language Models (LLMs) and Natural Language Processing (NLP).
-                -Experienced with Retrieval-Augmented Generation (RAG) techniques.
-                -Extensive knowledge of OpenAI technologies and implementation.
-              Systems Engineering Skills
-                -Expertise in containerization and orchestration: Kubernetes, Docker.
-                -CI/CD pipeline management using Jenkins.
-                -Version control and collaboration with Git.
-                -Database management: MSSQL, MongoDB.
-                -Proficient with web server technologies: NGINX.
+              AI Engineering Skills <br />
+                -Proficient in Large Language Models (LLMs) and Natural Language Processing (NLP). <br />
+                -Experienced with Retrieval-Augmented Generation (RAG) techniques. <br />
+                -Extensive knowledge of OpenAI technologies and implementation. <br />
+              Systems Engineering Skills <br />
+                -Expertise in containerization and orchestration: Kubernetes, Docker. <br />
+                -CI/CD pipeline management using Jenkins. <br />
+                -Version control and collaboration with Git. <br />
+                -Database management: MSSQL, MongoDB. <br />
+                -Proficient with web server technologie s: NGINX. <br />
             </p> 
             <Link href="/projects">
               <Button className="bg-purple-600 hover:bg-purple-700">
